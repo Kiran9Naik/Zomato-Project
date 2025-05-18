@@ -20,8 +20,8 @@ jobs:
       with:
         node-version: '16'  # Change to match your project's Node.js version
 
-    # - name: Install dependencies
-    #   run: npm ci
+    - name: Install dependencies
+      run: npm install
 
     - name: Run tests
       run: npm test
